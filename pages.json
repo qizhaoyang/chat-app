@@ -1,0 +1,110 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "对话",
+        "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/creation/creation",
+			"style": {
+				"navigationBarTitleText": "创作",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/skills/skills",
+			"style": {
+				"navigationBarTitleText": "模拟",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/create/create",
+			"style" : 
+			{
+				"navigationBarTitleText" : "创作",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/login/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+        "navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/content/content",
+			"style" : 
+			{
+				"navigationBarTitleText" : "用户协议",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/yinsi/yinsi",
+			"style" : 
+			{
+				"navigationBarTitleText" : "隐私协议",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app x",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#000000",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "对话",
+				"iconPath": "static/images/fluent--chat-20-regular.png",
+				"selectedIconPath": "static/images/fluent--chat-20-filled.png"
+			},
+			{
+				"pagePath": "pages/creation/creation",
+				"text": "创作",
+				"iconPath": "static/images/ion--bulb-outline.png",
+				"selectedIconPath": "static/images/ion--bulb-sharp.png"
+			},
+			{
+				"pagePath": "pages/skills/skills",
+				"text": "模拟",
+				"iconPath": "static/images/ion--create-outline.png",
+				"selectedIconPath": "static/images/ion--create.png"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"text": "我的",
+				"iconPath": "static/images/teenyicons--user-circle-outline.png",
+				"selectedIconPath": "static/images/teenyicons--user-circle-solid.png"
+			}
+		]
+
+	}
+}
